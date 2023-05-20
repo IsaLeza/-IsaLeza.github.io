@@ -1,0 +1,27 @@
+{
+    "welcome": "Bienvenue !!!",
+    "name": "Je suis Isaias Lezama",
+    "role": "Développeur Web Fullstack",
+    "about": "À propos",
+    "aboutMe": "À propos de moi",
+    "skills": "Compétences",
+    "portfolio": "Portfolio",
+    "contact": "Contact",
+    "html": "HTML",
+    "css": "CSS",
+    "javascript": "JavaScript",
+    "nodejs": "Node.js",
+    "react": "React",
+    "firebase": "Firebase",
+    "express": "Express",
+    "mongodb": "MongoDB",
+    "aboutTitle": "À propos de moi",
+    "aboutDescription1": "Bonjour et bienvenue ! Je m'appelle Isaias Lezama et je suis un développeur web fullstack passionné. Avec une expertise en HTML, CSS, JavaScript, Node.js, React, Express, Firebase et MongoDB, j'ai acquis un large éventail de compétences pour construire des applications web robustes et dynamiques.",
+    "aboutDescription2": "Sur ce site web, vous trouverez une présentation de mon portfolio, mettant en évidence certains des projets sur lesquels j'ai travaillé.",
+    "aboutDescription3": "Si vous avez des questions ou souhaitez collaborer sur un projet, n'hésitez pas à me contacter via les informations de contact fournies. Merci d'avoir visité mon site web et j'espère pouvoir vous revoir bientôt !",
+    "trilingual": "Trilingue",
+    "skillsTitle": "Compétences",
+    "portfolioTitle": "Portfolio",
+    "contactTitle": "Contact"
+  }
+  

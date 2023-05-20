@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>isaSoft | Software Development</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <a href="https://api.whatsapp.com/send?phone=522381640597" class="whatsapp-button" target="_blank"
+        rel="noopener noreferrer">
+        <img src="./media/wa-logo.png" alt="WhatsApp Icon">
+    </a>
+    <div class="fixed-background"></div>
+    <div class="navbar">
+        <img class="logo" src="./media/isaSoft-logo.png " alt="logo">
+        <div class="nav-links">
+            <div class="dropdown">
+                <select class="language-dropdown" onchange="changeLanguage(this.value)">
+                    <option value="en">EN</option>
+                    <option value="es">ES</option>
+                    <option value="fr">FR</option>
+                </select>
+            </div>
+
+            <a data-i18n="about" href="#about">About</a>
+            <a data-i18n="skills" href="#skills">Skills</a>
+            <a data-i18n="portfolio" href="#projects">Portfolio</a>
+            <a data-i18n="contact" href="#contact">Contact</a>
+
+        </div>
+    </div>
+    <div class="swiper-container">
+        <div class="swiper-wrapper">
+            <div class="swiper-slide main-1" style="background-color: #fe4625;">
+                <div class="swiper-1">
+                    <h1 data-i18n="welcome">WELCOME!!!</h1>
+                    <h1 data-i18n="name">I'm Isaias Lezama</h1>
+                    <h2 data-i18n="role">Fullstack Web Developer</h2>
+                </div>
+                <div>
+                    <img src="./media/fullstack-dev.png" alt="">
+                </div>
+            </div>
+            <div class="swiper-slide main-1" style="background-color: #fec625;">
+                <div>
+                    <img src="./media/front-end.png" alt="">
+                </div>
+                <div class="swiper-1">
+                    <h1>Front-End</h1>
+                    <ul class="list-logo">
+                        <li>
+                            <img src="./media/html-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="/media/css-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./media/js-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./media/node-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./media/react-logo.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+
+            <div class="swiper-slide main-1" style="background-color: #0cc0df;">
+                <div class="swiper-1">
+                    <h1>Back-End</h1>
+
+                    <ul class="backend-list">
+                        <li>
+                            <img src="./media/firebase-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./media/express-logo.png" alt="">
+                        </li>
+                        <li>
+                            <img src="./media/mongodb-logo.png" alt="">
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="./media/back-end.png" alt="">
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <section id="about" class="about-section">
+        <div class="profile-picture">
+            <img src="./media/profile-picture.jpg" alt="Your Name">
+        </div>
+        <div class="about-text">
+            <h2 data-i18n="aboutMe">About Me</h2>
+            <p data-i18n="aboutDescription1">
+                Hello and welcome! My name is Isaias Lezama, and I am a passionate full-stack web developer. With
+                expertise in HTML, CSS, JavaScript, Node.js, React, Express, Firebase, and MongoDB, I have acquired a
+                wide range of skills to build robust and dynamic web applications.
+            </p>
+            <br />
+            <p data-i18n="aboutDescription2">
+                On this website, you will find a showcase of my portfolio, highlighting some of the projects I have
+                worked on.
+            </p>
+            <br />
+            <p data-i18n="aboutDescription3">
+                If you have any questions or would like to collaborate on a project, feel free to reach out to me
+                through the provided contact information. Thank you for visiting my website, and I look forward to
+                connecting with you soon!
+            </p>
+        </div>
+    </section>
+    <div id="skills" class="gallery">
+        <div class="card">
+            <img src="./media/html-logo.png" alt="">
+            <h2>HTML</h2>
+        </div>
+        <div class="card">
+            <img src="./media/css-logo.png" alt="">
+            <h2>CSS</h2>
+        </div>
+        <div class="card">
+            <img src="./media/js-logo.png" alt="">
+            <h2>Javascript</h2>
+        </div>
+        <div class="card">
+            <img src="./media/node-logo.png" alt="">
+            <h2>Node JS</h2>
+        </div>
+        <div class="card">
+            <img src="./media/react-logo.png" alt="">
+            <h2>React</h2>
+        </div>
+        <div class="card">
+            <img src="./media/github.png" alt="">
+            <h2>GitHub</h2>
+        </div>
+        <div class="card">
+            <img src="./media/gitlab-logo.png" alt="">
+            <h2>GitLab</h2>
+        </div>
+        <div class="card">
+            <img src="./media/git-logo.png" alt="">
+            <h2>Git</h2>
+        </div>
+        <div class="card">
+            <img src="./media/ex-logo.png" alt="">
+            <h2>Express</h2>
+        </div>
+        <div class="card">
+            <img src="./media/mongo-logo.png" alt="">
+            <h2>Mongo DB</h2>
+        </div>
+        <div class="card">
+            <img src="./media/firebase-logo.png" alt="">
+            <h2>Firebase</h2>
+        </div>
+        <div class="card">
+            <img src="./media/bootstrap-logo.png" alt="">
+            <h2>Bootstrap</h2>
+        </div>
+        <div class="card">
+            <img src="./media/npm-logo.png" alt="">
+            <h2>NPM</h2>
+        </div>
+        <div class="card">
+            <img src="./media/flutter-logo.png" alt="">
+            <h2>Flutter</h2>
+        </div>
+        <div class="card">
+            <img src="./media/dart-logo.png" alt="">
+            <h2>Dart</h2>
+        </div>
+        <div class="card">
+            <img src="./media/language.png" alt="">
+            <h2 data-i18n="trilingual">Trilingual</h2>
+            <ul>
+                <li>
+                    <img src="./media/EN.png" alt="">
+                </li>
+                <li>
+                    <img src="./media/SP.png" alt="">
+                </li>
+                <li>
+                    <img src="./media/FR.png" alt="">
+                </li>
+
+            </ul>
+        </div>
+
+    </div>
+    <div class="under-construction-section">
+        <h2>Under Construction</h2>
+        <p>This website is currently under construction. Check back later for updates!</p>
+        <div class="tik-tak-tok">
+          <div class="board">
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+            <div class="cell"></div>
+          </div>
+        </div>
+      </div>
+      
+
+
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="./app.js"></script>
+    <script src="./gato.js"></script>
+</body>
+
+</html>
