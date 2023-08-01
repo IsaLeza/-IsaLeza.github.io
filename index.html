@@ -15,26 +15,44 @@
 </head>
 
 <body>
-  <div class="fixed-background"></div>
-  <div class="navbar">
-    <img class="logo" src="./media/isaSoft-logo.png" alt="logo">
-    <div class="nav-links">
+  <header class="header" id="site-header">
+    <div class="header-content-wrapper">
 
-      <a class="links" data-i18n="about" href="#about">About</a>
-      <a class="links" data-i18n="skills" href="#skills">Skills</a>
-      <a class="links" data-i18n="portfolio" href="#projects">Portfolio</a>
-      <a class="links" data-i18n="contact" href="#contact">Contact</a>
-      <div class="languages">
-        <img src="./media/EN.png" alt="">
-        <img src="./media/SP.png" alt="">
-        <img src="./media/FR.png" alt="">
+      <div class="logo">
+        <a href="/" class="full-block-link"></a>
+        <img src="./media/isaSoft-logo.png" alt="isaSoft">
       </div>
-      <button class="wa-button">
-        <img src="./media/wa-logo.png" alt="whatsapp-chat-button">
-      </button>
+      <nav id="primary-menu" class="primary-menu primary-menu-responsive">
+        <ul class="primary-menu-menu ">
+          <li class="menu-item-has-children">
+            <a href="/">Home</a>
+          </li>
 
+          <li class="">
+            <a href="/">About</a>
+          </li>
+          <li class="">
+            <a href="/">Services</a>
+          </li>
+          <li class="">
+            <a href="/">Portfolio</a>
+          </li>
+          <li class="">
+            <a href="/">Contact</a>
+          </li>
+
+
+
+          <li class="scrollable-fix"></li>
+        </ul>
+      </nav>
+      <ul class="nav-add">
+        <p class="head-phone-title">Contact</p>
+        <p class="head-phone-number">MX +52 (238)-164-0597</p>
+
+      </ul>
     </div>
-  </div>
+  </header>
   <section class="main">
     <div class="container-1">
       <div class="text-1">
@@ -42,7 +60,6 @@
           Turn <span class="ideas">ideas</span>
         </h1>
         <h1>into real products</h1>
-        <button class="btn btn-danger">Projects</button>
       </div>
       <div>
         <img class="fsd-pic" src="./media/BG.png" alt="">
@@ -51,11 +68,11 @@
   </section>
   <section class="about">
     <div class="container-2">
-      <div>
+      <div class="pic-container">
         <img class="about-pic" src="./media/About.png" alt="">
       </div>
       <div class="about-text">
-        <h1 class="title">ABOUT</h1>
+        <h3 class="title">ABOUT</h3>
         <p data-i18n="aboutDescription1">
           Hello and welcome! My name is <span>Isaias Lezama</span>, and I am a passionate full-stack web
           developer. With
@@ -74,103 +91,88 @@
           through the provided contact information. Thank you for visiting my website, and I look forward to
           connecting with you soon!
         </p>
+        <div class="cartoon-button">
+          <p>More Information</p>
+        </div>
       </div>
 
+    </div>
+  </section>
+
+  <section class="our-services">
+    <div>
+      <h2 class="os-title">
+        OUR SERVICES
+      </h2>
+    </div>
+    <div class="services-logos">
+      <div class="services-logo">
+        <div>
+          <img src="./media/web.png" alt="">
+        </div>
+        <div>
+          <h3>WEB</h3>
+          <p>"Empower your brand with stunning websites. We craft unique, high-performing sites that captivate audiences
+            and drive growth. Unleash your digital potential with us today!"</p>
+        </div>
+      </div>
+      <div class="services-logo">
+        <div>
+          <img src="./media/e-commerce.png" alt="">
+        </div>
+        <div>
+          <h3>E-COMMERCE</h3>
+          <p>Embrace the power of ecommerce: Reach global markets, 24/7 accessibility, reduced overhead costs,
+            personalized shopping experiences, and seamless transactions. Maximize sales and propel your business to new
+            heights.</p>
+        </div>
+      </div>
+      <div>
+        <div class="services-logo">
+          <img src="./media/smart-solutions.png" alt="">
+        </div>
+        <div>
+          <h3>SMART SOLUTIONS</h3>
+          <p>"Discover the smart way to streamline your business: CRMs for enhanced customer relationships, ERPs for
+            efficient operations, and tailored business solutions for optimal productivity. Simplify processes, boost
+            efficiency, and thrive in the digital age."</p>
+        </div>
+      </div>
+      <div class="services-logo">
+        <div>
+          <img src="./media/manteinance.png" alt="">
+        </div>
+        <div>
+          <h3>MANTEINANCE</h3>
+          <p>"Ensure your digital success with our comprehensive website and web app maintenance services. Stay
+            up-to-date, secure, and fully functional, with seamless updates and expert support, so you can focus on what
+            matters most – your business."</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="banner">
+    <div class="promo-banner">
+      <div class="title-banner">
+        Out satisfied clients
+      </div>
+      <div class="cx-logos">
+        <div>
+          <img src="./media/Contax_Logo_2.png" alt="Contax Logo">
+        </div>
+        <div>
+          <img src="./media/chic-logo.svg" alt="">
+        </div>
+        <div>
+          <img src="./media/isaSoft-logo.png" alt="">
+        </div>
+      </div>
     </div>
   </section>
   <section>
-    <h1 class="skills-title">SKILLS</h1>
-    <div class="card-container">
-      <div class="card">
-        <div class="card-content">
-          <h3>Version Control System</h3>
-          <p>GitHub and GitLab</p>
-        </div>
-        <div class="card-logos">
-          <img src="./media/github.png" alt="GitHub Logo">
-          <img src="./media/gitlab-logo.png" alt="GitLab Logo">
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <h3>Front End</h3>
-          <p>HTML, CSS, JS, React</p>
-        </div>
-        <div class="card-logos">
-          <img src="./media/html-logo.png" alt="HTML Logo">
-          <img src="./media/css-logo.png" alt="CSS Logo">
-          <img src="./media/js-logo.png" alt="JavaScript Logo">
-          <img src="./media/react-logo.png" alt="React Logo">
-
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <h3>Back End</h3>
-          <p>Express, NodeJS</p>
-        </div>
-        <div class="card-logos">
-          <img src="./media/ex-logo.png" alt="Express Logo">
-          <img src="./media/node-logo.png" alt="NodeJS Logo">
-          <img src="./media/mongo-logo.png" alt="MongoDB Logo">
-          <img src="./media/firebase-logo.png" alt="Firebase Logo">
-        </div>
-      </div>
-
-      <div class="card">
-        <div class="card-content">
-          <h3>Trilingual</h3>
-          <p>English, Spanish, and French</p>
-        </div>
-        <div class="card-image">
-          <img src="./media/language.png" alt="Trilingual Skills Image">
-        </div>
-      </div>
-
-    </div>
 
   </section>
-  <footer class="footer">
-    <div class="waves">
-      <div class="wave" id="wave1"></div>
-      <div class="wave" id="wave2"></div>
-      <div class="wave" id="wave3"></div>
-      <div class="wave" id="wave4"></div>
-    </div>
-    <ul class="social-icon">
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-facebook"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-twitter"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-linkedin"></ion-icon>
-        </a></li>
-      <li class="social-icon__item"><a class="social-icon__link" href="#">
-          <ion-icon name="logo-instagram"></ion-icon>
-        </a></li>
-    </ul>
-    <ul class="menu">
-      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Skills</a></li>
-      <li class="menu__item"><a class="menu__link" href="#">Projects</a></li>
-      
-    </ul>
-    <p>&copy;2023 Isaias Lezama | All Rights Reserved</p>
-  </footer>
-  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
-  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 
-
-
-
-  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
-  <script src="./app.js"></script>
-  <script src="./gato.js"></script>
 </body>
 
 </html>

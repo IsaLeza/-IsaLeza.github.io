@@ -123,3 +123,62 @@
     background-positon-x: 0px;
   }
 }
+
+/*RESPONSIVE*/
+.menu {
+  display: none;
+}
+
+.menu-toggle {
+  display: block;
+  text-align: right;
+  padding: 10px;
+  background-color: #3586ff;
+  cursor: pointer;
+}
+
+.menu-toggle i {
+  font-size: 20px;
+}
+
+.menu-toggle.active {
+  background-color: #3586ff;
+}
+
+.menu.active {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+  }
+
+  .logo {
+    margin: 10px auto;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .languages,
+  .wa-button {
+    margin-top: 10px;
+  }
+
+  .menu {
+    display: block;
+  }
+
+  .menu__link {
+    display: block;
+    padding: 10px;
+  }
+
+  .footer {
+    text-align: center;
+  }
+}
