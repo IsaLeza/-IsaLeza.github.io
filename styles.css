@@ -52,6 +52,7 @@
 @media screen and (max-width: 768px) {
   .logo img {
     height: 40px;
+
     /* Adjust the height of the logo for smaller screens */
   }
 
@@ -91,6 +92,9 @@
     /* Reset the dropdown positioning for smaller screens */
     background-color: transparent;
     box-shadow: none;
+  }
+  .nav-add{
+    display: none;
   }
 }
 
