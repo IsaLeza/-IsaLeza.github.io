@@ -1,0 +1,118 @@
+.container-moreinfo {
+    display: flex;
+}
+
+/* Estilos para las columnas */
+.column {
+    /* Configura el ancho de cada columna */
+    flex: 1; /* Esto permite que las columnas se ajusten automáticamente */
+    padding: 10px; /* Agrega un poco de espacio entre las columnas (opcional) */
+}
+
+/* Configura el ancho específico para cada columna */
+.column-1 {
+    height: 100vh;
+    flex-basis: calc(10% - 20px);
+    padding-top: 5%; /* 25% para 3 unidades, y restamos el espacio entre columnas */
+    background-color: rgb(27, 27, 27);
+    
+    justify-content: center;
+    align-items: center;
+}
+
+.column-1 h1 {
+    font-weight: bold;
+    color: #fff;
+    transform: rotate(270deg);
+}
+
+.column-2 {
+    height: 100vh;
+    flex-basis: calc(70% - 20px);
+    flex-direction: column;
+    
+}
+.skills-mobile{
+    display: none;
+}
+.column {
+    display: flex;
+    justify-content: center;
+}
+
+.sk-cards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr); /* Two columns with equal width */
+    gap:3rem; /* Gap between cards */
+}
+
+@media (max-width: 700px) {
+    .column-1{
+        display: none;
+    }
+    .column-2{
+        height: auto;
+    }
+    .skills-mobile{
+        display: block;
+        text-align: center;
+    }
+    .sk-cards {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr); /* Two columns with equal width */
+        gap:3rem; /* Gap between cards */
+    }
+    
+}
+.sk-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-height: 150px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s;
+}
+.sk-card div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sk-card div div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Optional: Set max width for cards if needed */
+.sk-card:hover {
+    transform: scale(1.05);
+    cursor: pointer;
+}
+
+/* Additional styles for the images */
+.sk-pic {
+    max-width: 50%;
+    height: auto;
+}
+
+.bubble {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #474747;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    opacity: 0;
+    pointer-events: none;
+    transition: opacity 0.3s;
+}
+
+.sk-card:hover .bubble {
+    opacity: 1;
+}
